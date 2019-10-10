@@ -15,10 +15,6 @@ rimraf(sitePath, function () {
     	console.log(`Resource ${resource} was saved to fs`);
     },
     urlFilter: function(url){
-      /*return url.indexOf('https://www.youtube.com') === -1
-        && url.indexOf('https://accounts.google.com/') === -1
-        && url.indexOf('https://secure.loom3otto.com' === -1);
-      */
      return url.indexOf('biketrack.com/') !== -1;
     },
   };
