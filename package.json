@@ -1,0 +1,16 @@
+{
+  "name": "Biketrack.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "import.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server ./site",
+    "import": "node import.js"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "rimraf": "^2.6.2",
+    "website-scraper": "^3.3.3"
+  }
+}

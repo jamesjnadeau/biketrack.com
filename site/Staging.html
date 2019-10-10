@@ -1,0 +1,21 @@
+<script type="text/javascript">
+function check()
+{
+	if (confirm("You are about to leave the Bike Track website. Bike Track does not own or operate the linked website and is not responsible for the content of the website. Bike Track does not make any guarantees or endorsements of products that may be available on the linked website. Bike Track does not represent either you or the other party if you enter into a transaction on the website. Privacy and security policies may differ from those practiced by Bike Track."))
+	{
+		return true;
+	}
+	else return false;
+}
+
+function check_custom(customurl,lcWidth,lcHeight,lcResize,lcScroll,lcToolbar)
+{
+	if (confirm("You are about to leave the Bike Track website. Bike Track does not own or operate the linked website and is not responsible for the content of the website. Bike Track does not make any guarantees or endorsements of products that may be available on the linked website. Bike Track does not represent either you or the other party if you enter into a transaction on the website. Privacy and security policies may differ from those practiced by Bike Track. "))
+	{
+		var newwindow = window.open(''+ customurl + '','popup','height='+lcHeight+',width='+lcWidth+',resizable='+lcResize+',status=yes,menubar=yes,toolbar='+lcToolbar+',scrollbars='+lcScroll+',location=yes');
+//		window.parent.refresh();
+		newwindow.focus();
+	}
+}
+</script>
+									Could not connect
