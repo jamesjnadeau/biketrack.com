@@ -1,0 +1,620 @@
+DEBUG output created by Wget 1.19.4 on linux-gnu.
+
+Reading HSTS entries from /home/nadeauj/.wget-hsts
+URI encoding = ‘UTF-8’
+URI encoding = ‘UTF-8’
+Enqueuing http://biketrack.com/ at depth 0
+Queue count 1, maxcount 1.
+[IRI Enqueuing ‘http://biketrack.com/’ with ‘UTF-8’
+Dequeuing http://biketrack.com/ at depth 0
+Queue count 0, maxcount 1.
+Converted file name 'biketrack.com/index.html' (UTF-8) -> 'biketrack.com/index.html' (UTF-8)
+--2019-10-11 15:50:29--  http://biketrack.com/
+Resolving biketrack.com (biketrack.com)... 65.60.43.186
+Caching biketrack.com => 65.60.43.186
+Connecting to biketrack.com (biketrack.com)|65.60.43.186|:80... connected.
+Created socket 4.
+Releasing 0x00007fffe6751990 (new refcount 1).
+
+---request begin---
+GET / HTTP/1.1
+User-Agent: Wget/1.19.4 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: biketrack.com
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 11 Oct 2019 19:50:26 GMT
+Server: Apache
+Location: https://www.biketrack.com/
+Content-Length: 234
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+---response end---
+301 Moved Permanently
+Registered socket 4 for persistent reuse.
+URI content encoding = ‘iso-8859-1’
+Location: https://www.biketrack.com/ [following]
+Skipping 234 bytes of body: [<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.biketrack.com/">here</a>.</p>
+</body></html>
+] done.
+URI content encoding = None
+Converted file name 'biketrack.com/index.html' (UTF-8) -> 'biketrack.com/index.html' (UTF-8)
+--2019-10-11 15:50:29--  https://www.biketrack.com/
+Resolving www.biketrack.com (www.biketrack.com)... 65.60.43.186
+Caching www.biketrack.com => 65.60.43.186
+Connecting to www.biketrack.com (www.biketrack.com)|65.60.43.186|:443... connected.
+Created socket 5.
+Releasing 0x00007fffe67726b0 (new refcount 1).
+Initiating SSL handshake.
+Handshake successful; connected socket 5 to SSL handle 0x00007fffe6773670
+certificate:
+  subject: CN=biketrack.com
+  issuer:  CN=cPanel\\, Inc. Certification Authority,O=cPanel\\, Inc.,L=Houston,ST=TX,C=US
+X509 certificate successfully verified and matches host www.biketrack.com
+
+---request begin---
+GET / HTTP/1.1
+User-Agent: Wget/1.19.4 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: www.biketrack.com
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Date: Fri, 11 Oct 2019 19:50:26 GMT
+Server: Apache
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+---response end---
+200 OK
+Disabling further reuse of socket 4.
+Closed fd 4
+Registered socket 5 for persistent reuse.
+Length: unspecified [text/html]
+Saving to: ‘biketrack.com/index.html’
+
+     0K .......... .......... .......... ........              69.8K=0.6s
+
+2019-10-11 15:50:30 (69.8 KB/s) - ‘biketrack.com/index.html’ saved [39876]
+
+Deciding whether to enqueue "https://www.biketrack.com/".
+This is not the same hostname as the parent's (www.biketrack.com and biketrack.com).
+Decided NOT to load it.
+Redirection "https://www.biketrack.com/" failed the test.
+URI encoding = ‘UTF-8’
+URI encoding = ‘UTF-8’
+Enqueuing https://biketrack.com/ at depth 0
+Queue count 1, maxcount 1.
+[IRI Enqueuing ‘https://biketrack.com/’ with ‘UTF-8’
+Dequeuing https://biketrack.com/ at depth 0
+Queue count 0, maxcount 1.
+Converted file name 'biketrack.com/index.html' (UTF-8) -> 'biketrack.com/index.html' (UTF-8)
+--2019-10-11 15:50:30--  https://biketrack.com/
+Found biketrack.com in host_name_addresses_map (0x7fffe6751990)
+Connecting to biketrack.com (biketrack.com)|65.60.43.186|:443... connected.
+Created socket 4.
+Releasing 0x00007fffe6751990 (new refcount 1).
+Initiating SSL handshake.
+Handshake successful; connected socket 4 to SSL handle 0x00007fffe6781f50
+certificate:
+  subject: CN=biketrack.com
+  issuer:  CN=cPanel\\, Inc. Certification Authority,O=cPanel\\, Inc.,L=Houston,ST=TX,C=US
+X509 certificate successfully verified and matches host biketrack.com
+
+---request begin---
+GET / HTTP/1.1
+User-Agent: Wget/1.19.4 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: biketrack.com
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 11 Oct 2019 19:50:27 GMT
+Server: Apache
+Location: https://www.biketrack.com/
+Content-Length: 234
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+---response end---
+301 Moved Permanently
+Disabling further reuse of socket 5.
+Closed 5/SSL 0x00007fffe6773670
+Registered socket 4 for persistent reuse.
+URI content encoding = ‘iso-8859-1’
+Location: https://www.biketrack.com/ [following]
+Skipping 234 bytes of body: [<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.biketrack.com/">here</a>.</p>
+</body></html>
+] done.
+URI content encoding = None
+Converted file name 'biketrack.com/index.html' (UTF-8) -> 'biketrack.com/index.html' (UTF-8)
+--2019-10-11 15:50:30--  https://www.biketrack.com/
+Found www.biketrack.com in host_name_addresses_map (0x7fffe67726b0)
+Connecting to www.biketrack.com (www.biketrack.com)|65.60.43.186|:443... connected.
+Created socket 5.
+Releasing 0x00007fffe67726b0 (new refcount 1).
+Initiating SSL handshake.
+Handshake successful; connected socket 5 to SSL handle 0x00007fffe67993a0
+certificate:
+  subject: CN=biketrack.com
+  issuer:  CN=cPanel\\, Inc. Certification Authority,O=cPanel\\, Inc.,L=Houston,ST=TX,C=US
+X509 certificate successfully verified and matches host www.biketrack.com
+
+---request begin---
+GET / HTTP/1.1
+User-Agent: Wget/1.19.4 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: www.biketrack.com
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Date: Fri, 11 Oct 2019 19:50:27 GMT
+Server: Apache
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+---response end---
+200 OK
+Disabling further reuse of socket 4.
+Closed 4/SSL 0x00007fffe6781f50
+Registered socket 5 for persistent reuse.
+Length: unspecified [text/html]
+Saving to: ‘biketrack.com/index.html’
+
+     0K .......... .......... .......... ........              67.3K=0.6s
+
+2019-10-11 15:50:31 (67.3 KB/s) - ‘biketrack.com/index.html’ saved [39876]
+
+Deciding whether to enqueue "https://www.biketrack.com/".
+This is not the same hostname as the parent's (www.biketrack.com and biketrack.com).
+Decided NOT to load it.
+Redirection "https://www.biketrack.com/" failed the test.
+FINISHED --2019-10-11 15:50:31--
+Total wall clock time: 2.0s
+Downloaded: 2 files, 78K in 1.1s (68.5 KB/s)
+Scanning biketrack.com/index.html (from https://www.biketrack.com/)
+Loaded biketrack.com/index.html (size 39876).
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/’) -> https://www.biketrack.com/
+appending ‘https://www.biketrack.com/’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘favicon.ico’) -> https://www.biketrack.com/favicon.ico
+appending ‘https://www.biketrack.com/favicon.ico’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘//fonts.googleapis.com/css?family=Roboto:400,700,300’) -> https://fonts.googleapis.com/css?family=Roboto:400,700,300
+appending ‘https://fonts.googleapis.com/css?family=Roboto:400,700,300’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘css/style.css’) -> https://www.biketrack.com/css/style.css
+appending ‘https://www.biketrack.com/css/style.css’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘css/add_styles.css’) -> https://www.biketrack.com/css/add_styles.css
+appending ‘https://www.biketrack.com/css/add_styles.css’ to urlpos.
+
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://secure.loom3otto.com/js/161550.js’) -> https://secure.loom3otto.com/js/161550.js
+appending ‘https://secure.loom3otto.com/js/161550.js’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://secure.loom3otto.com/161550.png’) -> https://secure.loom3otto.com/161550.png
+appending ‘https://secure.loom3otto.com/161550.png’ to urlpos.
+
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘index.php’) -> https://www.biketrack.com/index.php
+appending ‘https://www.biketrack.com/index.php’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘index.php’) -> https://www.biketrack.com/index.php
+appending ‘https://www.biketrack.com/index.php’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘images/logo-light-141x75.png’) -> https://www.biketrack.com/images/logo-light-141x75.png
+appending ‘https://www.biketrack.com/images/logo-light-141x75.png’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘index.php’) -> https://www.biketrack.com/index.php
+appending ‘https://www.biketrack.com/index.php’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘images/logo-light-141x75.png’) -> https://www.biketrack.com/images/logo-light-141x75.png
+appending ‘https://www.biketrack.com/images/logo-light-141x75.png’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘#’) -> https://www.biketrack.com/#
+appending ‘https://www.biketrack.com/’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘search-results.html’) -> https://www.biketrack.com/search-results.html
+appending ‘https://www.biketrack.com/search-results.html’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/Home’) -> https://www.biketrack.com/Home
+appending ‘https://www.biketrack.com/Home’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/Products’) -> https://www.biketrack.com/Products
+appending ‘https://www.biketrack.com/Products’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/1inchFlooring’) -> https://www.biketrack.com/1inchFlooring
+appending ‘https://www.biketrack.com/1inchFlooring’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/2inchFlooring’) -> https://www.biketrack.com/2inchFlooring
+appending ‘https://www.biketrack.com/2inchFlooring’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/2inchICM’) -> https://www.biketrack.com/2inchICM
+appending ‘https://www.biketrack.com/2inchICM’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/Staging’) -> https://www.biketrack.com/Staging
+appending ‘https://www.biketrack.com/Staging’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/Shelters’) -> https://www.biketrack.com/Shelters
+appending ‘https://www.biketrack.com/Shelters’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/Eureka’) -> https://www.biketrack.com/Eureka
+appending ‘https://www.biketrack.com/Eureka’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/Western’) -> https://www.biketrack.com/Western
+appending ‘https://www.biketrack.com/Western’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/CaseStudies’) -> https://www.biketrack.com/CaseStudies
+appending ‘https://www.biketrack.com/CaseStudies’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/CommsCenter’) -> https://www.biketrack.com/CommsCenter
+appending ‘https://www.biketrack.com/CommsCenter’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/TOC’) -> https://www.biketrack.com/TOC
+appending ‘https://www.biketrack.com/TOC’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/CommsSystem’) -> https://www.biketrack.com/CommsSystem
+appending ‘https://www.biketrack.com/CommsSystem’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/AboutUs’) -> https://www.biketrack.com/AboutUs
+appending ‘https://www.biketrack.com/AboutUs’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/Timeline’) -> https://www.biketrack.com/Timeline
+appending ‘https://www.biketrack.com/Timeline’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/News’) -> https://www.biketrack.com/News
+appending ‘https://www.biketrack.com/News’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/FAQ’) -> https://www.biketrack.com/FAQ
+appending ‘https://www.biketrack.com/FAQ’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/Layouts’) -> https://www.biketrack.com/Layouts
+appending ‘https://www.biketrack.com/Layouts’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/DRASHLayouts’) -> https://www.biketrack.com/DRASHLayouts
+appending ‘https://www.biketrack.com/DRASHLayouts’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/BaseXLayouts’) -> https://www.biketrack.com/BaseXLayouts
+appending ‘https://www.biketrack.com/BaseXLayouts’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/AirBeamLayouts’) -> https://www.biketrack.com/AirBeamLayouts
+appending ‘https://www.biketrack.com/AirBeamLayouts’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/EurekaLayouts’) -> https://www.biketrack.com/EurekaLayouts
+appending ‘https://www.biketrack.com/EurekaLayouts’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/MultiLayouts’) -> https://www.biketrack.com/MultiLayouts
+appending ‘https://www.biketrack.com/MultiLayouts’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘Purchase’) -> https://www.biketrack.com/Purchase
+appending ‘https://www.biketrack.com/Purchase’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/Contact’) -> https://www.biketrack.com/Contact
+appending ‘https://www.biketrack.com/Contact’ to urlpos.
+
+
+
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘FAQ’) -> https://www.biketrack.com/FAQ
+appending ‘https://www.biketrack.com/FAQ’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘FAQ’) -> https://www.biketrack.com/FAQ
+appending ‘https://www.biketrack.com/FAQ’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘FAQ’) -> https://www.biketrack.com/FAQ
+appending ‘https://www.biketrack.com/FAQ’ to urlpos.
+
+
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘FAQ’) -> https://www.biketrack.com/FAQ
+appending ‘https://www.biketrack.com/FAQ’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘FAQ’) -> https://www.biketrack.com/FAQ
+appending ‘https://www.biketrack.com/FAQ’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘FAQ’) -> https://www.biketrack.com/FAQ
+appending ‘https://www.biketrack.com/FAQ’ to urlpos.
+
+
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘FAQ’) -> https://www.biketrack.com/FAQ
+appending ‘https://www.biketrack.com/FAQ’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘FAQ’) -> https://www.biketrack.com/FAQ
+appending ‘https://www.biketrack.com/FAQ’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘FAQ’) -> https://www.biketrack.com/FAQ
+appending ‘https://www.biketrack.com/FAQ’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘’) -> https://www.biketrack.com/
+appending ‘https://www.biketrack.com/’ to urlpos.
+
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘AboutUs’) -> https://www.biketrack.com/AboutUs
+appending ‘https://www.biketrack.com/AboutUs’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘images/GSA.jpg’) -> https://www.biketrack.com/images/GSA.jpg
+appending ‘https://www.biketrack.com/images/GSA.jpg’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘interior_side.php/pid/5/sid/15/nid/47’) -> https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/47
+appending ‘https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/47’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘interior_side.php/pid/5/sid/15/nid/46’) -> https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/46
+appending ‘https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/46’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘interior_side.php/pid/5/sid/15/nid/45’) -> https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/45
+appending ‘https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/45’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘News’) -> https://www.biketrack.com/News
+appending ‘https://www.biketrack.com/News’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘index.php’) -> https://www.biketrack.com/index.php
+appending ‘https://www.biketrack.com/index.php’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘images/logo-light-136x75.png’) -> https://www.biketrack.com/images/logo-light-136x75.png
+appending ‘https://www.biketrack.com/images/logo-light-136x75.png’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.facebook.com/biketrackinc/’) -> https://www.facebook.com/biketrackinc/
+appending ‘https://www.facebook.com/biketrackinc/’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.instagram.com/biketrackinc/?hl=en’) -> https://www.instagram.com/biketrackinc/?hl=en
+appending ‘https://www.instagram.com/biketrackinc/?hl=en’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.youtube.com/channel/UCZ9XdbsdQfrDiwYlOIFLl_w’) -> https://www.youtube.com/channel/UCZ9XdbsdQfrDiwYlOIFLl_w
+appending ‘https://www.youtube.com/channel/UCZ9XdbsdQfrDiwYlOIFLl_w’ to urlpos.
+
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘mailto:info@biketrack.com’) -> mailto:info@biketrack.com
+biketrack.com/index.html: merged link "mailto:info@biketrack.com" doesn't parse.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.google.com/recaptcha/api.js’) -> https://www.google.com/recaptcha/api.js
+appending ‘https://www.google.com/recaptcha/api.js’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘js/core.min.js’) -> https://www.biketrack.com/js/core.min.js
+appending ‘https://www.biketrack.com/js/core.min.js’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘js/script.js’) -> https://www.biketrack.com/js/script.js
+appending ‘https://www.biketrack.com/js/script.js’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2’) -> https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2
+appending ‘https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2’) -> https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2
+appending ‘https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2’ to urlpos.
+URI encoding = ‘UTF-8’
+biketrack.com/index.html: merge(‘https://www.biketrack.com/’, ‘https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.7.2’) -> https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.7.2
+appending ‘https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.7.2’ to urlpos.
+no-follow in biketrack.com/index.html: 0
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/favicon.ico to complete
+URI encoding = ‘UTF-8’
+will convert url https://fonts.googleapis.com/css?family=Roboto:400,700,300 to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/css/style.css to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/css/add_styles.css to complete
+URI encoding = ‘UTF-8’
+will convert url https://secure.loom3otto.com/js/161550.js to complete
+URI encoding = ‘UTF-8’
+will convert url https://secure.loom3otto.com/161550.png to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/index.php to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/index.php to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/images/logo-light-141x75.png to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/index.php to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/images/logo-light-141x75.png to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/ to local biketrack.com/index.html
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/search-results.html to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/Home to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/Products to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/1inchFlooring to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/2inchFlooring to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/2inchICM to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/Staging to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/Shelters to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/Eureka to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/Western to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/CaseStudies to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/CommsCenter to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/TOC to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/CommsSystem to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/AboutUs to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/Timeline to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/News to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/FAQ to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/Layouts to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/DRASHLayouts to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/BaseXLayouts to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/AirBeamLayouts to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/EurekaLayouts to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/MultiLayouts to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/Purchase to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/Contact to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/FAQ to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/FAQ to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/FAQ to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/FAQ to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/FAQ to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/FAQ to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/FAQ to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/FAQ to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/FAQ to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/ to local biketrack.com/index.html
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/AboutUs to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/images/GSA.jpg to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/47 to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/46 to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/45 to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/News to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/index.php to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/images/logo-light-136x75.png to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.facebook.com/biketrackinc/ to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.instagram.com/biketrackinc/?hl=en to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.youtube.com/channel/UCZ9XdbsdQfrDiwYlOIFLl_w to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.google.com/recaptcha/api.js to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/js/core.min.js to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/js/script.js to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2 to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2 to complete
+URI encoding = ‘UTF-8’
+will convert url https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.7.2 to complete
+Converting links in biketrack.com/index.html... TO_COMPLETE: <something> to https://www.biketrack.com/favicon.ico at position 2495 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://fonts.googleapis.com/css?family=Roboto:400,700,300 at position 2602 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/css/style.css at position 2690 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/css/add_styles.css at position 2736 in biketrack.com/index.html.
+Skipping https://secure.loom3otto.com/js/161550.js at position 4145.
+Skipping https://secure.loom3otto.com/161550.png at position 4226.
+TO_COMPLETE: <something> to https://www.biketrack.com/index.php at position 5208 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/index.php at position 5643 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/images/logo-light-141x75.png at position 5689 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/index.php at position 6153 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/images/logo-light-141x75.png at position 6199 in biketrack.com/index.html.
+TO_RELATIVE: https://www.biketrack.com/ to index.html at position 6295 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/search-results.html at position 6545 in biketrack.com/index.html.
+Skipping https://www.biketrack.com/Home at position 7267.
+Skipping https://www.biketrack.com/Products at position 7389.
+Skipping https://www.biketrack.com/1inchFlooring at position 7512.
+Skipping https://www.biketrack.com/2inchFlooring at position 7599.
+Skipping https://www.biketrack.com/2inchICM at position 7686.
+Skipping https://www.biketrack.com/Staging at position 7772.
+Skipping https://www.biketrack.com/Shelters at position 7933.
+Skipping https://www.biketrack.com/Eureka at position 8069.
+Skipping https://www.biketrack.com/Western at position 8141.
+Skipping https://www.biketrack.com/CaseStudies at position 8272.
+Skipping https://www.biketrack.com/CommsCenter at position 8402.
+Skipping https://www.biketrack.com/TOC at position 8500.
+Skipping https://www.biketrack.com/CommsSystem at position 8594.
+Skipping https://www.biketrack.com/AboutUs at position 8769.
+Skipping https://www.biketrack.com/Timeline at position 8891.
+Skipping https://www.biketrack.com/News at position 8974.
+Skipping https://www.biketrack.com/FAQ at position 9050.
+Skipping https://www.biketrack.com/Layouts at position 9169.
+Skipping https://www.biketrack.com/DRASHLayouts at position 9290.
+Skipping https://www.biketrack.com/BaseXLayouts at position 9370.
+Skipping https://www.biketrack.com/AirBeamLayouts at position 9451.
+Skipping https://www.biketrack.com/EurekaLayouts at position 9535.
+Skipping https://www.biketrack.com/MultiLayouts at position 9614.
+TO_COMPLETE: <something> to https://www.biketrack.com/Purchase at position 9750 in biketrack.com/index.html.
+Skipping https://www.biketrack.com/Contact at position 9816.
+TO_COMPLETE: <something> to https://www.biketrack.com/FAQ at position 11117 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/FAQ at position 11636 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/FAQ at position 11929 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/FAQ at position 12992 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/FAQ at position 13493 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/FAQ at position 13786 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/FAQ at position 14853 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/FAQ at position 15340 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/FAQ at position 15633 in biketrack.com/index.html.
+TO_RELATIVE: https://www.biketrack.com/ to index.html at position 16589 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/AboutUs at position 24097 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/images/GSA.jpg at position 26886 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/47 at position 27760 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/46 at position 28762 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/interior_side.php/pid/5/sid/15/nid/45 at position 29809 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/News at position 30633 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/index.php at position 31039 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/images/logo-light-136x75.png at position 31060 in biketrack.com/index.html.
+Skipping https://www.facebook.com/biketrackinc/ at position 31306.
+Skipping https://www.instagram.com/biketrackinc/?hl=en at position 31433.
+Skipping https://www.youtube.com/channel/UCZ9XdbsdQfrDiwYlOIFLl_w at position 31568.
+Skipping https://www.google.com/recaptcha/api.js at position 34850.
+TO_COMPLETE: <something> to https://www.biketrack.com/js/core.min.js at position 34919 in biketrack.com/index.html.
+TO_COMPLETE: <something> to https://www.biketrack.com/js/script.js at position 34962 in biketrack.com/index.html.
+Skipping https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2 at position 35023.
+Skipping https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.7.2 at position 35257.
+Skipping https://www.biketrack.com/wordpress/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.7.2 at position 35815.
+2-30
+Converted links in 1 files in 0.03 seconds.
